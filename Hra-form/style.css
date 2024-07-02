@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+body {
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.618);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgba(128, 128, 128, 0);
+}
+.nav ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+nav a {
+  color: white;
+}
+.login a {
+  color: black;
+}
+a {
+  text-decoration: none;
+  margin-right: 24px;
+}
+.login {
+  display: flex;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formFooter {
+  display: flex;
+}
+.formFooter div:first-child {
+  display: flex;
+}
+
+.logo{
+  font-size: 30px;
+  color:white;
+}
+
+.navbr{
+  font-size: larger;
+  margin-right: 40px;
+
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+  }
+
+
+.signin{
+  border: 2px hidden ;
+  border-radius: 14px;
+  width:100px;
+  height: 30px;
+  background-color: rgba(128, 128, 128, 0.271);
+  padding: 7px;
+}
+
+.signup{
+  border: 2px hidden ;
+  border-radius: 14px;
+  width:100px;
+  height: 30px;
+  padding: 7px;
+  background-color: rgb(255, 255, 255);
+}
+
+.name{
+  border-style: hidden;
+ width:280px;
+ height: 50px;
+ border-radius: 27px;
+ background-color:  rgba(128, 128, 128, 0.333);
+}
+
+.surname{
+  border-style: hidden;
+  width:280px;
+  height: 50px;
+  border-radius: 27px;
+  background-color:  rgba(128, 128, 128, 0.333);
+}
+
+.email{
+  border-style: hidden;
+  width:560px;
+  height: 50px;
+  border-radius: 27px;
+  background-color:  rgba(128, 128, 128, 0.333);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.password{
+  border-style: hidden;
+  width:560px;
+  height: 50px;
+  border-radius: 27px;
+  background-color:  rgba(128, 128, 128, 0.333);
+}
+
+.regstr{
+  border-style: hidden;
+  width:560px;
+  height: 50px;
+  border-radius: 27px;
+  background-color:  rgb(255, 255, 255);
+  font-size: 19px;
+  margin-top: 30px;
+}
